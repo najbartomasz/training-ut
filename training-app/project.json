@@ -89,7 +89,13 @@
           "async": {
               "codeCoverage": true,
               "testMatch": [
-                "**/test/**/?(*.)spec.ts"
+                "**/test/async/**/?(*.)spec.ts"
+              ]
+          },
+          "stub-mock-spy": {
+              "codeCoverage": true,
+              "testMatch": [
+                "**/test/stub-mock-spy/**/?(*.)spec.ts"
               ]
           }
       }
